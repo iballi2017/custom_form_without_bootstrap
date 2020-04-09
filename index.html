@@ -10,11 +10,69 @@
 
 <body>
 
-    <h1>Custom Form</h1>
+    <h1 class="title">Custom Form</h1>
+    <div class="content">
+        <form action="">
+            <div class="cust-form-group">
+                <label for="name">Enter Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="cust-form-group">
+                <label for="username">Enter Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="cust-form-group">
+                <label for="email">Enter Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="cust-form-group">
+                <label for="password">Enter Password</label>
+                <input type="password" name="password" id="password">
+            </div>
 
-    <form action="">
+            <div class="cust-form-group task">
+                <input type="checkbox" name="task-1" id="task-1">
+                <label for="task-1">
+                    <span class="custom-checkbox"></span>
+                    Task 1</label>
+            </div>
 
-    </form>
+            <div class="cust-form-group task">
+                <input type="checkbox" name="task-2" id="task-2">
+                <label for="task-2">
+                    <span class="custom-checkbox"></span>
+                    Task 2</label>
+            </div>
+
+            <div class="cust-form-group task">
+                <input type="checkbox" name="task-3" id="task-3">
+                <label for="task-3">
+                    <span class="custom-checkbox"></span>
+                    Task 3</label>
+            </div>
+
+
+            <div class="cust-form-group task">
+
+                <input type="radio" name="sex" id="male">
+                <label for="male">
+                    <span class="custom-radio"></span>
+                    Male
+                </label>
+            </div>
+
+            <div class="cust-form-group task">
+
+                <input type="radio" name="sex" id="female">
+                <label for="female">
+                    <span class="custom-radio"></span>
+                    Female
+                </label>
+            </div>
+
+            <button class="submit-btn">Submit</button>
+        </form>
+    </div>
 
 </body>
 
