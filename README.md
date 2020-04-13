@@ -1,6 +1,6 @@
 # custom_form_without_bootstrap
 
-I always have problems editing bootstrap form template components e.g text-inputs, checkboxes and radio buttons. So I decided to create a my own custom form components I would always look back on when the need arise.
+I always have problems editing bootstrap form template components e.g text-inputs, checkboxes and radio buttons. So I decided to create my own custom form components I would always look back on when the need arise.
 
 This is a custom form template.
 
